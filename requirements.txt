@@ -39,6 +39,7 @@ numpy==2.3.0
 packaging==25.0
 pandas==2.3.0
 parso==0.8.4
+pi==0.1.2
 pillow==11.2.1
 platformdirs==4.3.8
 polars==1.31.0
