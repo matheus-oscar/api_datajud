@@ -1,6 +1,6 @@
 # API DataJud 
 
-O objetivo deste projeto é **extrair e estruturar dados de processos do Tribunal de Justiça de São Paulo (TJSP)** por meio da API pública do CNJ DataJud.  
+O objetivo deste projeto é **extrair e estruturar dados de processos do Tribunal de Justiça de São Paulo (TJSP)** disponibilizados por meio da API pública do CNJ DataJud.  
 
 O pipeline possui duas etapas principais:  
 1. **Download do Painel de Estatísticas do CNJ** → onde são obtidos os números CNJ dos processos.  
