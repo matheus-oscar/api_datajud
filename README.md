@@ -96,6 +96,4 @@ streamlit run 01_api_datajud.py
 
 
 
-👤 Autor
-Matheus Oscar
 🔗 [LinkedIn](https://www.linkedin.com/in/matheus-oscar/) | 💻 [GitHub](https://github.com/matheus-oscar)
