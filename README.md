@@ -90,7 +90,7 @@ streamlit run 01_api_datajud.py
 ### Próximos passos
 
 - Integração com banco de dados;
-- Parsing avançado da coluna movimentos, criando uma tabela isolada para eles;
+- Criação de uma tabela só para os movimentos;
 - Deploy como pipeline agendado (orquestração).
 - Controle de versionamento via execucao_id e data_execucao.
 
