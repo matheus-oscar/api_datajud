@@ -6,7 +6,7 @@ O pipeline possui duas etapas principais:
 1. **Download do Painel de Estatísticas do CNJ** → onde são obtidos os números CNJ dos processos.  
 2. **Consulta à API DataJud** → acessa os dados detalhados desses processos em lotes de 100, salvando os resultados em arquivos Parquet.  
 
-Dessa forma, temos um fluxo completo de **coleta, parsing e persistência** de dados judiciais, pronto para análises posteriores.  
+Dessa forma, temos um fluxo completo de **coleta, parsing e armazenamento** de dados processuais, pronto para análises posteriores.  
 
 📚 A documentação oficial da API pode ser encontrada [aqui](https://datajud-wiki.cnj.jus.br/).  
 📊 O Painel de Estatísticas está disponível [neste link](https://justica-em-numeros.cnj.jus.br/painel-estatisticas/).  
