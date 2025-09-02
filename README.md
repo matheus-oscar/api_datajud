@@ -93,3 +93,9 @@ streamlit run 01_api_datajud.py
 - Parsing avançado da coluna movimentos, criando uma tabela isolada para eles;
 - Deploy como pipeline agendado (orquestração).
 - Controle de versionamento via execucao_id e data_execucao.
+
+
+
+👤 Autor
+Matheus Oscar
+🔗 [LinkedIn](https://www.linkedin.com/in/matheus-oscar/) | 💻 [GitHub](https://github.com/matheus-oscar)
