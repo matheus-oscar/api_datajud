@@ -13,8 +13,11 @@ __pycache__/
 
 *.json
 
-app10/
+app/
 data-raw/
+NOTEBOOKS_FABRIC/
+*.ipynb
+*.ipynb_checkpoints
 
 # Distribution / packaging
 .Python

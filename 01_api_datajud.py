@@ -63,7 +63,7 @@ def carregar_processos_parquet(caminho):
 st.title("Consulta API DATAJUD v13 - com Salvamento por Lotes")
 st.subheader("Consulta de processos TJSP previamente extraídos")
 
-pasta_entrada = "./app10/dados-processos"
+pasta_entrada = "./app/dados-processos"
 arquivos_parquet = [f for f in os.listdir(
     pasta_entrada) if f.endswith(".parquet")]
 if not arquivos_parquet:
@@ -75,11 +75,11 @@ arquivo_selecionado = st.selectbox(
 caminho_arquivo = os.path.join(pasta_entrada, arquivo_selecionado)
 
 nome_pasta_saida = st.text_input(
-    "📁 Pasta final consolidada", value="app10/resultado-api/")
+    "📁 Pasta final consolidada", value="app/resultado-api/")
 nome_arquivo_saida = st.text_input(
     "Nome do arquivo final", value="resultado_api")
 pasta_batches = st.text_input(
-    "📁 Pasta para salvar os batches", value="app10/resultado-api/lotes/")
+    "📁 Pasta para salvar os batches", value="app/resultado-api/lotes/")
 os.makedirs(pasta_batches, exist_ok=True)
 
 col1, col2 = st.columns([2, 1])

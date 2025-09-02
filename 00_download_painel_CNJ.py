@@ -149,8 +149,8 @@ st.title("Download Painel CNJ TJSP (v10)")
 
 PASTA_DOWNLOAD = "data-raw"
 NOME_ZIP = "TJSP.zip"
-PASTA_EXTRAIDA = "app10/dados-extraidos"
-PASTA_SAIDA = "app10/dados-processos"
+PASTA_EXTRAIDA = "app/dados-extraidos"
+PASTA_SAIDA = "app/dados-processos"
 URL = "https://api-csvr.stg.cloud.cnj.jus.br/download_csv?tribunal=TJSP&indicador=&oj=&grau=&municipio=&ambiente=csv_p"
 ZIP_PATH = os.path.join(PASTA_DOWNLOAD, NOME_ZIP)
 DESTINO_PARQUET = os.path.join(PASTA_SAIDA, "tjsp_processos.parquet")
