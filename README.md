@@ -13,7 +13,7 @@ Dessa forma, temos um fluxo completo de **coleta, parsing e armazenamento** de d
 
 ---
 
-## 📂 Arquitetura do pipeline
+## 📂 Estrutura do projeto
 
 ```bash
 
@@ -29,7 +29,7 @@ Dessa forma, temos um fluxo completo de **coleta, parsing e armazenamento** de d
 ```
 ---
 
-## ⚙️ Modos de utilização
+## ⚙️ Modo de utilização
 
 ### 0. Instalação  
 Crie o ambiente virtual e instale as dependências:
