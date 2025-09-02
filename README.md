@@ -15,13 +15,6 @@ Dessa forma, temos um fluxo completo de **coleta, parsing e persistência** de d
 
 ## 📂 Arquitetura do pipeline
 
-data-raw/ # Arquivo ZIP baixado do CNJ
-
-app/dados-processos/ # Parquet com números de processo
-app/resultado-api/lotes/ # Arquivos Parquet por lote da API
-app/resultado-api/ # Arquivo consolidado final
-
-
 ```bash
 
 ├── app/
