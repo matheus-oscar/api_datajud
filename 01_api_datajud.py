@@ -60,8 +60,8 @@ def carregar_processos_parquet(caminho):
 
 
 # ----------------------------
-st.title("Consulta API DATAJUD v13 - com Salvamento por Lotes")
-st.subheader("Consulta de processos TJSP previamente extraídos")
+st.title("Consulta API DATAJUD")
+st.subheader("Consulta de processos TJSP extraídos do painel de estatísticas do CNJ")
 
 pasta_entrada = "./app/dados-processos"
 arquivos_parquet = [f for f in os.listdir(
