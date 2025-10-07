@@ -8,7 +8,7 @@ import os
 from datetime import datetime
 
 # ----------------------------
-
+st.set_page_config(page_title="Consulta API DATAJUD", layout="wide")
 
 def consultar_processo(numero, url, headers, max_retries=3, delay=1.0):
     payload = json.dumps({"query": {"match": {"numeroProcesso": numero}}})
@@ -22,7 +22,7 @@ def consultar_processo(numero, url, headers, max_retries=3, delay=1.0):
             registros = []
             for hit in hits:
                 registro = hit["_source"]
-                registro["_id"] = hit.get("_id")
+                #registro["_id"] = hit.get("_id")
                 registros.append(registro)
             sleep(delay)
             return (numero, registros, None)
