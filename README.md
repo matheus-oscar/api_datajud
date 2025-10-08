@@ -31,17 +31,29 @@ Dessa forma, temos um fluxo completo de **coleta, parsing e armazenamento** de d
 
 ## ⚙️ Modo de utilização
 
-### 0. Instalação  
-Crie o ambiente virtual e instale as dependências:
+### 0. Clone o repositório
+
+```bash
+   git clone https://github.com/matheus-oscar/api_datajud.git
+   
+   cd api_datajud
+```
+
+### 1. Crie um ambiente virtual  
 
 ```bash
 python -m venv venv
 venv\Scripts\activate   # (Windows)
 # ou source venv/bin/activate (Linux/Mac)
+```
 
+### 2. Instale as dependências
+
+```bash
 pip install -r requirements.txt
 
 ```
+
 
 ### 1. App – Download & Parsing CNJ
 
