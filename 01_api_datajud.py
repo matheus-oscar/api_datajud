@@ -22,7 +22,6 @@ def consultar_processo(numero, url, headers, max_retries=3, delay=1.0):
             registros = []
             for hit in hits:
                 registro = hit["_source"]
-                #registro["_id"] = hit.get("_id")
                 registros.append(registro)
             sleep(delay)
             return (numero, registros, None)
