@@ -8,8 +8,8 @@ O pipeline possui duas etapas principais:
 
 Dessa forma, temos um fluxo completo de **coleta, parsing e armazenamento** de dados processuais, pronto para análises posteriores.  
 
-📚 A documentação oficial da API pode ser encontrada [aqui](https://datajud-wiki.cnj.jus.br/).  
-📊 O Painel de Estatísticas está disponível [neste link](https://justica-em-numeros.cnj.jus.br/painel-estatisticas/).  
+- A documentação oficial da API pode ser encontrada [aqui](https://datajud-wiki.cnj.jus.br/).  
+- O Painel de Estatísticas está disponível [neste link](https://justica-em-numeros.cnj.jus.br/painel-estatisticas/).  
 
 ---
 
