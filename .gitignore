@@ -16,7 +16,6 @@ __pycache__/
 app/
 data-raw/
 NOTEBOOKS_FABRIC/
-*.ipynb
 *.ipynb_checkpoints
 
 # Environments
